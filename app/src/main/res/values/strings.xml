@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ExampleAndroidComponents</string>
+    <string name="usb_charging_text">USB Charging</string>
+    <string name="ac_charging_text">AC Charging</string>
+    <string name="not_charging_text">Not Charging</string>
+    <string name="channel_id">ChannelId</string>
+    <string name="service_is_running_text">Service is running</string>
+    <string name="name_notification_text">ForeGround service</string>
+    <string name="message_service">Service</string>
+    <string name="service_button_text">Service</string>
+    <string name="receiver_button_text">BroadcastReceiver</string>
+    <string name="provider_button_text">ContentProvider</string>
+    <string name="broadcast_receiver_android">BroadcastReceiver — этот компонент принимает сообщения, которые отправляют другие компоненты нашего приложения, другие компоненты чужих приложений или вообще сам Android. Широковещательные сообщения делают приложение более открытым; передавая события, использующие сообщения, вы открываете компоненты своего приложения для сторонних приложений, и сторонние разработчики реагируют на события без необходимости изменять ваше оригинальное приложение. В своём приложении вы можете прослушивать широковещательные сообщения других приложений, заменить или улучшить функциональность собственного (или стороннего) приложения или реагировать на системные изменения и события приложений. Пример использования: регистрация ресивера для прослушивания событий изменения языка в системе</string>
+    <string name="broadcast_receiver_android1">На данном экране мы видим работу BroadcastReceiver, происходит передача сообщения о подключении зарядного устройства, которое в последующим отображается в всплывающем уведомлении</string>
+    <string name="broadcast_receiver_android2">Популярное приложение использующие BroadcastReceiver - WhatsApp</string>
+    <string name="content_provider_android">ContentProvider — помогает использовать какие-то данные внутри одного приложения или совместно с другими. ContentProviders, предоставляемые Android (или другими приложениями), — это простой способ включения в приложение данных из других источников. Эти классы позволяют получать доступ к данным, например таким как список контактов, фотографии или события календаря в приложении, и предоставлять пользователю возможность взаимодействовать с ними.</string>
+    <string name="content_provider_android1">На данном экране мы делаем запрос к контактам, в последующим сохранив их в список который мы выведем на экран с помощью listView.</string>
+    <string name="content_provider_android2">Приложения использующие content provider - Telegram</string>
+    <string name="start_service_button_text">Start Service</string>
+    <string name="stop_service_button_text">Stop Service</string>
+    <string name="service_android">Service – это компонент приложения, который используется для выполнения долгих фоновых операций без взаимодействия с пользователем. Любой компонент приложения может запустить сервис, который продолжит работу, даже если пользователь перейдет в другое приложение. Примеры использования сервисов: проигрывание музыки, трекинг локации водителя в приложении такси, загрузка файла из сети.</string>
+    <string name="service_android1">На данном экране нажимая на кнопку start service происходит запуск сервиса, а так же отображается notification о его работе, с помощью кнопки stop service мы останавливаем работу сервиса</string>
+    <string name="service_android2">Популярное приложение использующе Service - яндекс такси</string>
+    <string name="activity_description">Activity — именно здесь происходит взаимодействие с пользователем: показываем ему информацию, обрабатываем ввод и т.п. В активити у нас располагаются различные элементы: кнопки, фрагменты, изображения и другие различные View.</string>
+    <string name="activity_description1">На этом экране отображются кнопки по нажматию на которые мы попадаем на другие Activity, с помощью intent</string>
+</resources>
